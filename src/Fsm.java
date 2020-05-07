@@ -22,17 +22,17 @@ public class Fsm {
                 currentNode = currentNode.getNodeA();
 
             }
-            if (letter == 'B'){
+            if (letter == 'B') {
                 currentNode = currentNode.getNodeB();
-
             }
+
             System.out.println(currentNode.getNaam());
+
+
 
 
         }
 
     }
-
-
 
 }
